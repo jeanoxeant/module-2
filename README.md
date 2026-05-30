@@ -1,34 +1,33 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Oma Distribution is a web app that focus on a real business. It a distrubition workshop to provide product like clothes,electric equipments and appliances to people in Haiti. I used python manage.py runserver to start a test server on my computer. The first website to be oppened is where we can see all the products. 
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
-
-{Describe your purpose for writing this software.}
+My purpose for writing this software is to learn and practice django. I took the situation to build a real business website for my brother's business. 
 
 {Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+https://youtu.be/fiE46MN-YZM
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+The first web page to be oppened is the home page where we can observe all the products. We can see also a category menu in the left side. We can see the logo, a serach filter and the footer in all the pages.
+If we click on any category, we should see the products organized in this category. Also we have a productdetails page that shows us details about a specific product. We have the authentication page where we can add, modify the products. We can add or modify categories too. 
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+The tools that I used was visual studio code. I used the python language and django. I used github to store my pictures to use them into my website.
 
-{Describe the programming language that you used and any libraries.}
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* https://docs.djangoproject.com/en/5.0/
+* https://en.wikipedia.org/wiki/Dynamic_web_page
+* https://en.wikipedia.org/wiki/Django_(web_framework)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* I need to improve my home design.
+* I need to develop a bar menu where client can see contact informations of the business.
+* I need to create a form page where client can register and comment on products.
