@@ -12,13 +12,18 @@ body {
 
 .search {
     float: left;
-    margin: 24px 80px;
+    margin: 24px 80px; 
 }
 
 #header {
     content: "";
     clear: both;
     display: table;
+    /*border-bottom: 1px solid #057665;*/
+    margin-bottom: 20px;
+    background-color: #057665;
+    color: white;
+    width: 920px;
 }
 
 #productgrid {
@@ -47,6 +52,7 @@ body {
 #categories {
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
     height: 600px;
 }
 
@@ -57,4 +63,13 @@ body {
 #categories li {
     list-style: none;
     padding: 8px;
+}
+
+#footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #057665;
+    margin-top: 20px;
+    color: white;
+    
 }

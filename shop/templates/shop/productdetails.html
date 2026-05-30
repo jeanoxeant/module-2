@@ -3,6 +3,6 @@
 {% block main %}
 <img class="productdetailsimage" src="{% productimage image %}">
 <p>{{ description }}</p>
-<p>Volume: {{ volume }}</p>
-<p>Price: {{ price|currency_euro }}</p>
+<p>Size: {{ volume }}</p>
+<p>Price: {{ price|currency_gourde }}</p>
 {% endblock %}

@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Otheniel's workshop</title>
+    <title>OMA Distribution</title>
     {% load static %}
     <link rel="stylesheet" href="{% static 'shop/styles/screen.css' %}">
 </head>
 <body>
     <div id="header">
-        <img class="logo" src="{% static 'shop/images/logo.png' %}">
+        <img class="logo" src="{% static 'shop/images/logo1.png' %}">
         <form class="search" action="{% url 'index' %}" method="get">
             <input type="text" name="q" value="{{ filter }}">
             <button type="submit">Search</button>
@@ -26,5 +26,8 @@
     <h1>{{ title }}</h1>
     {% block main %}
     {% endblock %}
-    </body>
+    <div id="footer">
+        <p>&copy; 2026 OMA Distribution. All rights reserved.</p>
+    </div>
+</body>
 </html>
